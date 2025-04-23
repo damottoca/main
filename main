@@ -1,0 +1,84 @@
+val expressaoRegular =  Regex("[0-5]")
+var convidado: Convidado = Convidado()
+var listaConvidados : MutableList<Convidado> = mutableListOf<Convidado>()
+fun main() {
+    menu()
+
+}
+
+fun print(s: String, function: () -> Unit) {
+
+}
+
+private fun menu() {}
+
+fun validar(): Boolean {
+
+
+
+fun listar(convidado: Convidado) {
+if (validar()){
+
+//Validar para que o usuario somente digite LETRAS para escrever
+fun cadastrar(): Convidado {
+    //Instancia
+    var convidado = Convidado()
+
+    print("Qual o seu nome?")
+   // val nome = readln()
+    convidado.nome = readln() // -QUESTÃO 1
+
+    print("Qual vai ser o presente?")
+   // val presente = readln()
+    convidado.presente = readln()
+    print("Qual sua restrição alimentar")
+   // val alimento = readln()
+    convidado.alimentar = readln()
+    return convidado
+}
+ fun listar() {
+
+    print("Nome: ${convidado.nome}; \n" +
+            "Presente: ${convidado.presente};\n " +
+            "Restrição: ${convidado.alimentar};\n"+"" +
+            "Vai ir a festa ${convidado.presente};\n")
+    fun editar() {
+        if (validar()){
+        }
+        println("O convidado vai? S/N")
+        val resposta = readln()
+        when(resposta) {
+            "S" -> convidado.presenca = true.toString()
+            "N" -> convidado.presenca = false.toString()
+        }
+
+    }
+        }
+        }
+    }
+
+
+    fun excluir() {
+        convidado.nome = ""
+        convidado.presente = ""
+        convidado.alimentar = ""
+        convidado.presenca = "fase"
+        println("convidado excluido")
+    }
+
+ fun busca(){
+     var i = 0 //indice da lista
+     print ("Digite o nome da pessoa que você busca: ")
+     val busca =readln()
+     listaConvidados.forEach {
+
+ fun validar() {
+     if(listaConvidados.isEmpty()){
+
+     }
+ }
+     }
+ }
+    return true
+}
+
